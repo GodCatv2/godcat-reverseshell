@@ -1,6 +1,5 @@
 # Creación de Virus y Control Remoto del Equipo Víctima con Kali Linux
 
-Publicado el 9 de agosto de 2015 por David
 
 ## Introducción
 
